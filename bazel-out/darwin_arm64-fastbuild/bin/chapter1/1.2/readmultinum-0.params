@@ -1,0 +1,10 @@
+-o
+bazel-out/darwin_arm64-fastbuild/bin/chapter1/1.2/readmultinum
+bazel-out/darwin_arm64-fastbuild/bin/chapter1/1.2/_objs/readmultinum/readmultinum.o
+-Wl,-S
+-mmacosx-version-min=10.11
+-no-canonical-prefixes
+-fobjc-link-runtime
+-headerpad_max_install_names
+-lc++
+-lm

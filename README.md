@@ -1,2 +1,1 @@
-# C-PrimerLearningNote
-C++ Primer learning note&amp;code
+/Users/roam/dev/C-PrimerLearningNote/README.md

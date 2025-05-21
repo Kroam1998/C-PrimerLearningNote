@@ -1,0 +1,10 @@
+-o
+bazel-out/darwin_arm64-fastbuild/bin/chapter1/1.5/sales_item_app
+bazel-out/darwin_arm64-fastbuild/bin/chapter1/1.5/_objs/sales_item_app/Sales_item.o
+-Wl,-S
+-mmacosx-version-min=10.11
+-no-canonical-prefixes
+-fobjc-link-runtime
+-headerpad_max_install_names
+-lc++
+-lm

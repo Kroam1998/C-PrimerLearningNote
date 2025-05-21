@@ -1,0 +1,10 @@
+-o
+bazel-out/darwin_arm64-fastbuild/bin/chapter1/1.1/1.1
+bazel-out/darwin_arm64-fastbuild/bin/chapter1/1.1/_objs/1.1/1.1.o
+-Wl,-S
+-mmacosx-version-min=10.11
+-no-canonical-prefixes
+-fobjc-link-runtime
+-headerpad_max_install_names
+-lc++
+-lm

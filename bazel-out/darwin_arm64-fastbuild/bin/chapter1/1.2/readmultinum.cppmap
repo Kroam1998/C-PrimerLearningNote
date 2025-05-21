@@ -1,0 +1,9 @@
+module "//chapter1/1.2:readmultinum" {
+  export *
+  use "bazel_tools//tools/cpp:link_extra_lib"
+  use "bazel_tools//tools/cpp:malloc"
+  use "crosstool"
+}
+extern module "bazel_tools//tools/cpp:link_extra_lib" "../../../../../bazel-out/darwin_arm64-fastbuild/bin/external/bazel_tools/tools/cpp/link_extra_lib.cppmap"
+extern module "bazel_tools//tools/cpp:malloc" "../../../../../bazel-out/darwin_arm64-fastbuild/bin/external/bazel_tools/tools/cpp/malloc.cppmap"
+extern module "crosstool" "../../../../../external/rules_cc++cc_configure_extension+local_config_cc/module.modulemap"
