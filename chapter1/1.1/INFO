@@ -1,0 +1,2 @@
+bazel build //chapter1/1.1:1.1
+编译main函数测试

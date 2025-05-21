@@ -1,1 +1,15 @@
-/Users/roam/dev/C-PrimerLearningNote/.gitignore
+# Bazel build outputs
+/bazel-bin/
+/bazel-genfiles/
+/bazel-out/
+/bazel-testlogs/
+/bazel-*
+
+# Bazel lock file (auto-generated)
+MODULE.bazel.lock
+
+# Other common ignores
+*.log
+*.tmp
+*~
+.DS_Store

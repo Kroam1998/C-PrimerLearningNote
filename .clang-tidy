@@ -1,1 +1,17 @@
-/Users/roam/dev/C-PrimerLearningNote/.clang-tidy
+UseColor: true
+
+Checks: >
+    -*,
+    bugprone-*,
+    cppcoreguidelines-pro-type-member-init
+
+# default
+# Checks: >
+#     bugprone-*,
+#     cppcoreguidelines-*,
+#     google-*,
+#     performance-*,
+
+HeaderFilterRegex: ".*"
+
+# WarningsAsErrors: "*"
